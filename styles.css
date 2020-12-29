@@ -1,0 +1,43 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color:#FF7C3B;
+    background-color:#46A4A6;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    text-shadow: 1px 1px 1px #143b3b;
+}
+
+#kind_food_selector{
+    height: 1.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.2rem;
+}
+#kind_food_selector:focus{
+    border: 2px solid#FF7C3B;
+    box-shadow: 0px 0px 1px inset #143b3b,0px 0px 2px inset #FF7C3B,0px 0px 3px inset #FF7C3B;
+    outline: none;
+}
+
+.titles{
+    padding: 1rem;
+    background-color: #143b3b55;
+}
+.titles p,
+.titles h1{
+    margin: 0px;
+}
+@media(max-width:768px){
+    body{
+        font-size: 0.7rem;
+    }
+}
+
+#mapid { 
+    height: 400px;
+}
